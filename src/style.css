@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    appearance: none;
+    border: none;
+    outline: none;
+
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+    height: 120px;
+    background-color: grey;
+    padding-left: 40px;
+}
+
+
+#form > input {
+    height: 30px;
+    width: 200px;
+
+    border: 1px solid black;
+    border-radius: 5px 0 0 5px;
+}
+
+#form > button {
+    height: 32px;
+    width: 50px;
+    margin-left: -4px;
+
+    border: 1px solid black;
+    border-radius: 0 5px 5px 0;
+    background-color: aquamarine;
+}
