@@ -6,10 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="bundle.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/style.css">
 </head>
 <body>
-    <div id="div"></div>
+    <div id="nav">
+        <div id="icon">
+            Weather Icon
+        </div>
+        <div id="search">
+            <form id="form">
+                <input type="text" id="input">
+                <button id="search-button">Search</button>
+            </form>
+        </div>
+    </div> 
     
+    <div id="content">
+        <div class="today">
+            <div id="location">city name</div>
+            <div id="weather">weather</div>
+            <div id="temperature">60</div>
+            <div id="feels-like">65</div>
+            <div id="humidity">humid</div>
+            <div id="hi-low">
+                <div id="high">high</div>
+                <div id="low">low</div>
+            </div>
+        </div>
+
+
+    </div>
 </body>
 </html>
